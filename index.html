@@ -29,8 +29,9 @@
 <meta name="twitter:description" content="Software sob medida, plataformas SaaS, automações e Inteligência Artificial para empresas de todos os portes.">
 <meta name="twitter:image" content="https://www.pleiadessystems.com/assets/og-image.jpg">
 
-<!-- Favicon (placeholder — substituir pela logo oficial) -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23081B33'/%3E%3Ccircle cx='9' cy='10' r='1.6' fill='%232F80FF'/%3E%3Ccircle cx='16' cy='7' r='1.9' fill='%232F80FF'/%3E%3Ccircle cx='23' cy='11' r='1.4' fill='%232F80FF'/%3E%3Ccircle cx='13' cy='16' r='1.3' fill='%23fff'/%3E%3Ccircle cx='20' cy='19' r='1.6' fill='%232F80FF'/%3E%3Ccircle cx='11' cy='23' r='1.2' fill='%23fff'/%3E%3Ccircle cx='24' cy='24' r='1.3' fill='%23fff'/%3E%3C/svg%3E">
+<!-- Favicon (logo oficial) -->
+<link rel="icon" type="image/svg+xml" href="PleaidesFavicon.svg">
+<meta name="theme-color" content="#081B33">
 
 <!-- Preload de fontes críticas (Google Fonts) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +49,7 @@
   "@type": "Organization",
   "name": "Pleiades Systems",
   "url": "https://www.pleiadessystems.com/",
-  "logo": "https://www.pleiadessystems.com/assets/logo.svg",
+  "logo": "https://www.pleiadessystems.com/PleaidesFavicon.svg",
   "description": "Empresa de tecnologia especializada em desenvolvimento de software sob medida, plataformas SaaS, automação de processos e Inteligência Artificial.",
   "sameAs": [
     "https://www.linkedin.com/company/pleiades-systems",
@@ -103,6 +104,52 @@
       "@type": "Question",
       "name": "Como funciona o processo de desenvolvimento?",
       "acceptedAnswer": { "@type": "Answer", "text": "Nosso processo segue sete etapas: descoberta, planejamento, design, desenvolvimento, testes, implantação e evolução contínua, garantindo qualidade e previsibilidade em cada entrega." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais tecnologias a Pleiades Systems utiliza?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Trabalhamos com uma stack moderna e madura — entre outras, JavaScript, TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB, Docker e AWS — a mesma que sustenta nossos próprios produtos SaaS em produção." }
+    },
+    {
+      "@type": "Question",
+      "name": "Como faço para solicitar um orçamento ou demonstração?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Preencha o formulário de contato no final da página com uma descrição do seu projeto. Nosso time retorna em até um dia útil com os próximos passos." }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Produtos Pleiades Systems",
+  "itemListElement": [
+    {
+      "@type": "SoftwareApplication",
+      "position": 1,
+      "name": "SpeedOrder",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Sistema inteligente de gestão de pedidos para restaurantes, com fluxo rápido e experiência pensada para operação em alta demanda.",
+      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 2,
+      "name": "UniEat",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Plataforma de gestão gastronômica voltada para cantinas e restaurantes universitários, conectando pedidos, cardápio e operação.",
+      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 3,
+      "name": "Plataforma IA",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Soluções de Inteligência Artificial aplicadas a processos reais de negócio, do reconhecimento de dados à automação de decisões.",
+      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
     }
   ]
 }
@@ -120,15 +167,22 @@
   <div class="container header-inner">
     <a href="#top" class="brand" aria-label="Pleiades Systems — página inicial">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 40 40" width="34" height="34">
-          <circle cx="11" cy="12" r="2" class="mark-star mark-star--dim"/>
-          <circle cx="20" cy="7" r="2.4" class="mark-star"/>
-          <circle cx="29" cy="13" r="1.8" class="mark-star mark-star--dim"/>
-          <circle cx="16" cy="19" r="1.6" class="mark-star"/>
-          <circle cx="25" cy="23" r="2.1" class="mark-star"/>
-          <circle cx="13" cy="28" r="1.5" class="mark-star mark-star--dim"/>
-          <circle cx="27" cy="32" r="1.7" class="mark-star"/>
-          <path d="M20 7 L16 19 L25 23 L27 32" class="mark-bolt"/>
+        <svg class="brand-mark-svg" viewBox="0 0 500 500" width="46" height="46">
+          <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+            <path d="M2322 3785 c-169 -185 -367 -501 -407 -651 -63 -234 12 -450 196
+-557 24 -14 96 -40 159 -57 172 -48 231 -85 274 -172 22 -43 26 -66 26 -133 0
+-138 -44 -240 -148 -348 -222 -229 -525 -273 -710 -103 -133 122 -130 406 4
+557 l39 43 -33 -25 c-86 -62 -152 -214 -152 -349 0 -181 93 -342 262 -456 155
+-104 310 -154 475 -154 346 0 618 212 688 534 13 57 16 104 12 175 -11 197
+-66 320 -207 461 -86 86 -107 102 -230 165 -232 120 -329 196 -376 291 -25 51
+-26 62 -21 137 8 108 44 229 122 408 83 191 112 289 86 289 -5 0 -32 -25 -59
+-55z"/>
+            <path d="M1912 2400 c74 -10 127 -38 162 -87 59 -84 42 -189 -42 -263 -52 -47
+-82 -49 -96 -8 -8 23 -5 31 22 56 51 48 40 111 -24 138 -31 13 -39 13 -67 -1
+-44 -21 -71 -69 -71 -126 0 -151 198 -214 317 -101 46 44 67 94 67 162 0 145
+-102 241 -255 238 l-70 -1 57 -7z"/>
+            <path d="M1765 2370 c-3 -6 1 -7 9 -4 18 7 21 14 7 14 -6 0 -13 -4 -16 -10z"/>
+          </g>
         </svg>
       </span>
       <span class="brand-name">Pleiades <strong>Systems</strong></span>
@@ -141,6 +195,7 @@
         <li><a href="#produtos">Produtos</a></li>
         <li><a href="#tecnologia">Tecnologia</a></li>
         <li><a href="#processo">Processo</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#contato" class="nav-cta">Solicitar demonstração</a></li>
       </ul>
     </nav>
@@ -157,6 +212,7 @@
       <li><a href="#produtos">Produtos</a></li>
       <li><a href="#tecnologia">Tecnologia</a></li>
       <li><a href="#processo">Processo</a></li>
+      <li><a href="#faq">FAQ</a></li>
       <li><a href="#contato" class="nav-cta">Solicitar demonstração</a></li>
     </ul>
   </div>
@@ -209,36 +265,37 @@
   <div class="container">
     <p class="eyebrow eyebrow-dark">Quem somos</p>
     <h2 id="sobre-title" class="section-title">
-      Um aglomerado de talentos, orientado por um único objetivo.
+      Ideias não nascem prontas.
     </h2>
     <p class="section-lede">
-      O nome Pleiades vem do aglomerado estelar M45 — sete estrelas que,
-      vistas do chão, parecem uma só luz. É assim que trabalhamos: pessoas,
-      processos e tecnologia conectados em torno de um mesmo propósito,
-      criando software que aproxima empresas dos seus resultados.
+      Toda ideia chega crua — um processo manual, uma dor mal descrita, uma
+      intuição sobre o que falta no negócio. É trabalho nosso dar forma a
+      isso: entender o que está por trás do pedido e transformar em sistema
+      que funciona, do mesmo jeito que sete estrelas soltas do aglomerado M45
+      só formam as Plêiades quando alguém entende como elas se conectam.
     </p>
 
     <div class="grid grid-3 reveal-group">
       <article class="info-card reveal">
         <span class="info-card-icon" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M14 2l3 8 8 1-6 6 2 9-7-4-7 4 2-9-6-6 8-1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M5 9l9-6 9 6-9 6-9-6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 9v10l9 6 9-6V9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 15v10" stroke="currentColor" stroke-width="1.6"/></svg>
         </span>
-        <h3>Missão</h3>
-        <p>Transformar ideias em software que gera resultado real, com engenharia sólida e foco absoluto no negócio do cliente.</p>
+        <h3>Sem molde pronto</h3>
+        <p>Cada sistema nasce da arquitetura pensada para o seu contexto — não de um template genérico adaptado para caber no seu caso.</p>
       </article>
       <article class="info-card reveal">
         <span class="info-card-icon" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="14" cy="14" r="3" fill="currentColor"/></svg>
+          <svg width="28" height="28" viewBox="0 0 28 28"><rect x="4" y="4" width="20" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 14h10M9 9h10M9 19h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
         </span>
-        <h3>Visão</h3>
-        <p>Ser reconhecida como referência em desenvolvimento de software e Inteligência Artificial aplicada a negócios no Brasil.</p>
+        <h3>Decisão técnica visível</h3>
+        <p>Arquitetura, trade-offs e prazos ficam documentados e acessíveis ao cliente — sem caixa-preta entre a proposta e a entrega.</p>
       </article>
       <article class="info-card reveal">
         <span class="info-card-icon" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M4 20 L11 8 L17 16 L24 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M4 22l6-13 5 7 4-9 5 15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </span>
-        <h3>Valores</h3>
-        <p>Transparência, excelência técnica, evolução contínua e compromisso com o crescimento de cada cliente que atendemos.</p>
+        <h3>Sucesso é produção</h3>
+        <p>Medimos entrega pelo sistema rodando com usuários reais — não por protótipo em slide ou ambiente de demonstração.</p>
       </article>
     </div>
   </div>
@@ -274,32 +331,56 @@
       à prova todos os dias — e é essa experiência que aplicamos em cada projeto de cliente.
     </p>
 
-    <div class="grid grid-4 reveal-group">
+    <div class="grid grid-3 reveal-group">
       <article class="product-card reveal">
+        <!--
+          Print do produto: troque o <span class="product-shot-placeholder">…</span>
+          abaixo por <img src="assets/produtos/speedorder.png" alt="Painel de pedidos do SpeedOrder mostrando comandas em tempo real" loading="lazy">
+          Proporção recomendada da imagem: 16:10 (ex.: 1200×750px).
+        -->
+        <div class="product-shot" aria-hidden="true">
+          <span class="product-shot-bar"><i></i><i></i><i></i></span>
+          <span class="product-shot-placeholder"><strong>SpeedOrder</strong>assets/produtos/speedorder.png</span>
+        </div>
         <div class="product-card-glyph" aria-hidden="true">SO</div>
         <h3>SpeedOrder</h3>
         <p>Sistema inteligente de gestão de pedidos para restaurantes, com fluxo rápido e experiência pensada para operação em alta demanda.</p>
         <span class="tag">SaaS · Food service</span>
       </article>
       <article class="product-card reveal">
+        <!--
+          Print do produto: troque o <span class="product-shot-placeholder">…</span>
+          abaixo por <img src="assets/produtos/unieat.png" alt="Tela de cardápio digital do UniEat em um restaurante universitário" loading="lazy">
+        -->
+        <div class="product-shot" aria-hidden="true">
+          <span class="product-shot-bar"><i></i><i></i><i></i></span>
+          <span class="product-shot-placeholder"><strong>UniEat</strong>assets/produtos/unieat.png</span>
+        </div>
         <div class="product-card-glyph" aria-hidden="true">UE</div>
         <h3>UniEat</h3>
         <p>Plataforma de gestão gastronômica voltada para cantinas e restaurantes universitários, conectando pedidos, cardápio e operação.</p>
         <span class="tag">SaaS · Gestão gastronômica</span>
       </article>
       <article class="product-card reveal">
+        <!--
+          Print do produto: troque o <span class="product-shot-placeholder">…</span>
+          abaixo por <img src="assets/produtos/plataforma-ia.png" alt="Painel da Plataforma IA exibindo automação de decisões" loading="lazy">
+        -->
+        <div class="product-shot" aria-hidden="true">
+          <span class="product-shot-bar"><i></i><i></i><i></i></span>
+          <span class="product-shot-placeholder"><strong>Plataforma IA</strong>assets/produtos/plataforma-ia.png</span>
+        </div>
         <div class="product-card-glyph" aria-hidden="true">AI</div>
         <h3>Plataforma IA</h3>
         <p>Soluções inteligentes que aplicam Inteligência Artificial a processos reais de negócio, do reconhecimento de dados à automação de decisões.</p>
         <span class="tag">Inteligência Artificial</span>
       </article>
-      <article class="product-card product-card--soon reveal">
-        <div class="product-card-glyph" aria-hidden="true">+</div>
-        <h3>Em desenvolvimento</h3>
-        <p>Novos produtos estão sendo construídos pelo nosso time. Em breve, novidades no nosso portfólio.</p>
-        <span class="tag">Em breve</span>
-      </article>
     </div>
+
+    <p class="product-soon reveal">
+      <span class="product-soon-dot" aria-hidden="true"></span>
+      Novos produtos em desenvolvimento pelo nosso time — em breve, mais novidades neste espaço.
+    </p>
   </div>
 </section>
 
@@ -345,11 +426,47 @@
     <p class="section-lede">
       Um processo claro do início ao fim — assim como as sete estrelas
       principais das Plêiades formam um único aglomerado visível a olho nu.
+      Batizamos cada etapa com o nome de uma delas.
     </p>
 
     <ol class="timeline" id="timelineList">
       <!-- Preenchido via JS -->
     </ol>
+  </div>
+</section>
+
+<!-- ============================================================
+     PERGUNTAS FREQUENTES
+     Conteúdo espelha o JSON-LD FAQPage no <head> — mantenha os dois
+     sincronizados ao editar uma pergunta.
+============================================================ -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <p class="eyebrow eyebrow-dark">Perguntas frequentes</p>
+    <h2 id="faq-title" class="section-title">Respostas diretas antes de você nos chamar.</h2>
+
+    <div class="faq-list reveal-group">
+      <details class="faq-item reveal" open>
+        <summary>O que a Pleiades Systems desenvolve?<span class="faq-icon" aria-hidden="true"></span></summary>
+        <p>Softwares personalizados, plataformas SaaS, sistemas web, aplicativos, automações, integrações e soluções de Inteligência Artificial para empresas de todos os portes.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>A Pleiades Systems atende empresas de qual porte?<span class="faq-icon" aria-hidden="true"></span></summary>
+        <p>Desde startups até empresas de médio e grande porte, com soluções escaláveis desenhadas sob medida para cada estágio de negócio.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Como funciona o processo de desenvolvimento?<span class="faq-icon" aria-hidden="true"></span></summary>
+        <p>Sete etapas — descoberta, planejamento, design, desenvolvimento, testes, implantação e evolução contínua — descritas na seção <a href="#processo">Processo</a> acima.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Quais tecnologias a Pleiades Systems utiliza?<span class="faq-icon" aria-hidden="true"></span></summary>
+        <p>Uma stack moderna e madura — JavaScript, TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB, Docker e AWS entre outras — a mesma que sustenta nossos próprios produtos SaaS em produção.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Como faço para solicitar um orçamento ou demonstração?<span class="faq-icon" aria-hidden="true"></span></summary>
+        <p>Preencha o <a href="#contato">formulário de contato</a> com uma descrição do seu projeto. Nosso time retorna em até um dia útil com os próximos passos.</p>
+      </details>
+    </div>
   </div>
 </section>
 
@@ -399,15 +516,22 @@
     <div class="footer-brand">
       <a href="#top" class="brand" aria-label="Pleiades Systems — página inicial">
         <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 40 40" width="30" height="30">
-            <circle cx="11" cy="12" r="2" class="mark-star mark-star--dim"/>
-            <circle cx="20" cy="7" r="2.4" class="mark-star"/>
-            <circle cx="29" cy="13" r="1.8" class="mark-star mark-star--dim"/>
-            <circle cx="16" cy="19" r="1.6" class="mark-star"/>
-            <circle cx="25" cy="23" r="2.1" class="mark-star"/>
-            <circle cx="13" cy="28" r="1.5" class="mark-star mark-star--dim"/>
-            <circle cx="27" cy="32" r="1.7" class="mark-star"/>
-            <path d="M20 7 L16 19 L25 23 L27 32" class="mark-bolt"/>
+          <svg class="brand-mark-svg" viewBox="0 0 500 500" width="30" height="30">
+            <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+              <path d="M2322 3785 c-169 -185 -367 -501 -407 -651 -63 -234 12 -450 196
+-557 24 -14 96 -40 159 -57 172 -48 231 -85 274 -172 22 -43 26 -66 26 -133 0
+-138 -44 -240 -148 -348 -222 -229 -525 -273 -710 -103 -133 122 -130 406 4
+557 l39 43 -33 -25 c-86 -62 -152 -214 -152 -349 0 -181 93 -342 262 -456 155
+-104 310 -154 475 -154 346 0 618 212 688 534 13 57 16 104 12 175 -11 197
+-66 320 -207 461 -86 86 -107 102 -230 165 -232 120 -329 196 -376 291 -25 51
+-26 62 -21 137 8 108 44 229 122 408 83 191 112 289 86 289 -5 0 -32 -25 -59
+-55z"/>
+              <path d="M1912 2400 c74 -10 127 -38 162 -87 59 -84 42 -189 -42 -263 -52 -47
+-82 -49 -96 -8 -8 23 -5 31 22 56 51 48 40 111 -24 138 -31 13 -39 13 -67 -1
+-44 -21 -71 -69 -71 -126 0 -151 198 -214 317 -101 46 44 67 94 67 162 0 145
+-102 241 -255 238 l-70 -1 57 -7z"/>
+              <path d="M1765 2370 c-3 -6 1 -7 9 -4 18 7 21 14 7 14 -6 0 -13 -4 -16 -10z"/>
+            </g>
           </svg>
         </span>
         <span class="brand-name">Pleiades <strong>Systems</strong></span>
@@ -421,6 +545,7 @@
         <li><a href="#sobre">Quem somos</a></li>
         <li><a href="#diferenciais">Diferenciais</a></li>
         <li><a href="#processo">Processo</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>

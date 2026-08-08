@@ -1,0 +1,27 @@
+# Pleiades Systems
+
+> Empresa brasileira de desenvolvimento de software que cria sistemas sob medida, plataformas SaaS, automações e soluções de Inteligência Artificial para empresas de todos os portes.
+
+A Pleiades Systems atua como fábrica de software e parceira de tecnologia, cobrindo todo o ciclo de vida de um produto digital: descoberta, planejamento, design, desenvolvimento, testes, implantação e evolução contínua. Além de projetos sob medida para clientes, mantém produtos SaaS próprios em produção.
+
+## Serviços
+- Desenvolvimento de Software sob medida
+- Desenvolvimento Web
+- Sistemas SaaS multiusuário
+- Inteligência Artificial aplicada a processos de negócio
+- Automação de processos
+- Integrações entre sistemas e APIs
+- Aplicativos móveis e multiplataforma
+- Consultoria tecnológica
+
+## Produtos próprios
+- [SpeedOrder](https://www.pleiadessystems.com/#produtos): sistema de gestão de pedidos para restaurantes, focado em operação de alta demanda.
+- [UniEat](https://www.pleiadessystems.com/#produtos): plataforma de gestão gastronômica para cantinas e restaurantes universitários.
+- [Plataforma IA](https://www.pleiadessystems.com/#produtos): soluções de Inteligência Artificial aplicadas a processos reais de negócio.
+
+## Stack técnica
+JavaScript, TypeScript, React, Next.js, Node.js, NestJS, Express, MySQL, PostgreSQL, MongoDB, Docker, AWS, OpenAI, REST APIs.
+
+## Contato
+- Página: https://www.pleiadessystems.com/
+- Formulário de contato: https://www.pleiadessystems.com/#contato

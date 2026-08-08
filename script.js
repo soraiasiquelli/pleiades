@@ -192,12 +192,12 @@ servicosGrid.innerHTML = services.map(s => `
 
 // Diferenciais
 const diffs = [
-  { n: '01', title: 'Arquitetura escalável', text: 'Sistemas desenhados para crescer junto com o volume de dados e usuários.' },
-  { n: '02', title: 'Alta performance', text: 'Código otimizado, tempos de resposta baixos e boas notas em Core Web Vitals.' },
-  { n: '03', title: 'Segurança', text: 'Boas práticas de segurança aplicadas em cada camada do sistema.' },
-  { n: '04', title: 'Experiência do usuário', text: 'Interfaces pensadas para reduzir fricção e aumentar conversão.' },
-  { n: '05', title: 'Desenvolvimento sob medida', text: 'Nada de soluções genéricas — cada projeto nasce do seu contexto real.' },
-  { n: '06', title: 'Suporte especializado', text: 'Acompanhamento próximo antes, durante e depois da entrega.' }
+  { n: '01', title: 'Arquitetura pensada para o volume real', text: 'Banco de dados, filas e cache dimensionados para o crescimento esperado do seu negócio — não para uma demo.' },
+  { n: '02', title: 'Performance monitorada, não prometida', text: 'Consultas indexadas, carregamento otimizado e tempos de resposta acompanhados desde o primeiro deploy.' },
+  { n: '03', title: 'Segurança por padrão', text: 'Controle de acesso por papel, autenticação forte e dados sensíveis nunca armazenados em texto puro.' },
+  { n: '04', title: 'Testado com quem usa', text: 'Fluxos validados com o operador do sistema no dia a dia — não só com quem aprovou o orçamento.' },
+  { n: '05', title: 'Sem dependência de quem construiu', text: 'Código documentado e padronizado, para que qualquer time consiga dar manutenção depois de nós.' },
+  { n: '06', title: 'Canal direto com quem desenvolve', text: 'Contato com o time técnico responsável pelo projeto — sem triagem em fila de suporte genérica.' }
 ];
 const diferenciaisGrid = document.getElementById('diferenciaisGrid');
 diferenciaisGrid.innerHTML = diffs.map(d => `
@@ -212,20 +212,23 @@ diferenciaisGrid.innerHTML = diffs.map(d => `
 const techs = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'NestJS', 'Express', 'MySQL', 'PostgreSQL', 'MongoDB', 'Docker', 'AWS', 'OpenAI', 'REST APIs'];
 document.getElementById('techBadges').innerHTML = techs.map(t => `<li>${t}</li>`).join('');
 
-// Processo
+// Processo — cada etapa leva o nome de uma das sete irmãs do aglomerado
+// M45 (Alcíone, Maia, Electra, Táigete, Celeno, Astérope, Mérope), na ordem
+// em que a tradição grega costuma listá-las.
 const steps = [
-  { title: 'Descoberta', text: 'Entendemos o problema, o negócio e os objetivos antes de propor qualquer solução.' },
-  { title: 'Planejamento', text: 'Definimos escopo, arquitetura e cronograma com previsibilidade.' },
-  { title: 'Design', text: 'Criamos a experiência da interface alinhada à identidade da sua marca.' },
-  { title: 'Desenvolvimento', text: 'Codificamos com boas práticas, versionamento e revisão contínua.' },
-  { title: 'Testes', text: 'Validamos funcionalidade, performance e segurança antes da entrega.' },
-  { title: 'Implantação', text: 'Colocamos o sistema no ar com monitoramento ativo.' },
-  { title: 'Evolução contínua', text: 'Acompanhamos métricas reais e evoluímos o produto com o seu negócio.' }
+  { star: 'Alcíone', title: 'Descoberta', text: 'Entendemos o problema, o negócio e os objetivos antes de propor qualquer solução.' },
+  { star: 'Maia', title: 'Planejamento', text: 'Definimos escopo, arquitetura e cronograma com previsibilidade.' },
+  { star: 'Electra', title: 'Design', text: 'Criamos a experiência da interface alinhada à identidade da sua marca.' },
+  { star: 'Táigete', title: 'Desenvolvimento', text: 'Codificamos com boas práticas, versionamento e revisão contínua.' },
+  { star: 'Celeno', title: 'Testes', text: 'Validamos funcionalidade, performance e segurança antes da entrega.' },
+  { star: 'Astérope', title: 'Implantação', text: 'Colocamos o sistema no ar com monitoramento ativo.' },
+  { star: 'Mérope', title: 'Evolução contínua', text: 'Acompanhamos métricas reais e evoluímos o produto com o seu negócio.' }
 ];
 document.getElementById('timelineList').innerHTML = steps.map((s, i) => `
   <li class="timeline-step reveal">
     <span class="timeline-num" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span>
     <div class="timeline-body">
+      <span class="timeline-star">${s.star}</span>
       <h3>${s.title}</h3>
       <p>${s.text}</p>
     </div>
