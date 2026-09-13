@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Antes de automatizar, mapeie o processo | Pleiades Systems</title>
+<meta name="description" content="Automatizar um processo ruim só faz ele dar errado mais rápido. Três perguntas para checar antes de começar qualquer projeto de automação.">
+<link rel="canonical" href="https://www.pleiadessystems.com/insights/antes-de-automatizar/">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Pleiades Systems">
+<meta property="og:title" content="Antes de automatizar, mapeie: três perguntas que evitam automatizar o processo errado">
+<meta property="og:description" content="Automatizar um processo ruim só faz ele dar errado mais rápido. O que checar antes de começar.">
+<meta property="og:url" content="https://www.pleiadessystems.com/insights/antes-de-automatizar/">
+<meta property="og:image" content="https://www.pleiadessystems.com/assets/og-image.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/svg+xml" href="/PleaidesFavicon.svg">
+<meta name="theme-color" content="#081B33">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Antes de automatizar, mapeie: três perguntas que evitam automatizar o processo errado",
+  "description": "Automatizar um processo ruim só faz ele dar errado mais rápido. O que checar antes de começar.",
+  "author": { "@type": "Organization", "name": "Pleiades Systems" },
+  "publisher": { "@type": "Organization", "name": "Pleiades Systems", "logo": { "@type": "ImageObject", "url": "https://www.pleiadessystems.com/PleaidesFavicon.svg" } },
+  "datePublished": "2026-08-29",
+  "dateModified": "2026-08-29",
+  "mainEntityOfPage": "https://www.pleiadessystems.com/insights/antes-de-automatizar/",
+  "articleSection": "Automação",
+  "inLanguage": "pt-BR"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.pleiadessystems.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://www.pleiadessystems.com/insights/" },
+    { "@type": "ListItem", "position": 3, "name": "Antes de automatizar", "item": "https://www.pleiadessystems.com/insights/antes-de-automatizar/" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="/" class="brand" aria-label="Pleiades Systems — página inicial">
+      <span class="brand-mark" aria-hidden="true">
+        <svg class="brand-mark-svg" viewBox="0 0 500 500" width="40" height="40">
+          <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+            <path d="M2322 3785 c-169 -185 -367 -501 -407 -651 -63 -234 12 -450 196-557 24 -14 96 -40 159 -57 172 -48 231 -85 274 -172 22 -43 26 -66 26 -133 0-138 -44 -240 -148 -348 -222 -229 -525 -273 -710 -103 -133 122 -130 406 4 557 l39 43 -33 -25 c-86 -62 -152 -214 -152 -349 0 -181 93 -342 262 -456 155-104 310 -154 475 -154 346 0 618 212 688 534 13 57 16 104 12 175 -11 197-66 320 -207 461 -86 86 -107 102 -230 165 -232 120 -329 196 -376 291 -25 51-26 62 -21 137 8 108 44 229 122 408 83 191 112 289 86 289 -5 0 -32 -25 -59-55z"/>
+            <path d="M1912 2400 c74 -10 127 -38 162 -87 59 -84 42 -189 -42 -263 -52 -47-82 -49 -96 -8 -8 23 -5 31 22 56 51 48 40 111 -24 138 -31 13 -39 13 -67 -1-44 -21 -71 -69 -71 -126 0 -151 198 -214 317 -101 46 44 67 94 67 162 0 145-102 241 -255 238 l-70 -1 57 -7z"/>
+            <path d="M1765 2370 c-3 -6 1 -7 9 -4 18 7 21 14 7 14 -6 0 -13 -4 -16 -10z"/>
+          </g>
+        </svg>
+      </span>
+      <span class="brand-name">Pleiades <strong>Systems</strong></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="/solucoes/">Soluções</a></li>
+        <li><a href="/projetos/">Projetos</a></li>
+        <li><a href="/insights/" aria-current="page">Insights</a></li>
+        <li><a href="/sobre/">Sobre</a></li>
+        <li><a href="/contato/" class="nav-cta">Fale conosco</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="/solucoes/">Soluções</a></li>
+      <li><a href="/projetos/">Projetos</a></li>
+      <li><a href="/insights/">Insights</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="/contato/" class="nav-cta">Fale conosco</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main-content">
+
+<article>
+  <div class="article-head">
+    <div class="container">
+      <p class="breadcrumb"><a href="/">Início</a><span aria-hidden="true">/</span><a href="/insights/">Insights</a><span aria-hidden="true">/</span><span>Antes de automatizar</span></p>
+      <div class="insight-meta" style="margin-bottom:18px;">
+        <span class="tag">Automação</span><span class="dot">·</span><span>5 min de leitura</span><span class="dot">·</span><time datetime="2026-08-29">29 de agosto de 2026</time>
+      </div>
+      <h1>Antes de automatizar, mapeie: três perguntas que evitam automatizar o processo errado</h1>
+    </div>
+  </div>
+
+  <div class="article-body">
+    <p>Existe uma armadilha comum em projetos de automação: pegar um processo manual exatamente como ele é hoje — com suas gambiarras, exceções e atalhos informais — e simplesmente transformá-lo em código. O resultado costuma ser um processo ruim, só que mais rápido e mais difícil de corrigir depois.</p>
+
+    <p>Antes de automatizar qualquer coisa, vale responder três perguntas.</p>
+
+    <h2>1. Esse processo deveria existir do jeito que existe?</h2>
+    <p>Muito processo manual carrega decisões antigas que ninguém mais lembra o motivo. Antes de automatizar uma etapa, pergunte: se estivéssemos desenhando isso do zero hoje, ela continuaria existindo assim? Automatizar uma etapa desnecessária só faz ela rodar sozinha, para sempre, sem que ninguém questione de novo.</p>
+
+    <h2>2. Quem realmente sabe como o processo funciona?</h2>
+    <p>Fluxograma oficial e processo real quase nunca são idênticos. A pessoa que executa a tarefa todos os dias sabe das exceções, dos atalhos e dos casos em que "na teoria funciona assim, mas na prática a gente faz diferente". Mapear com essa pessoa — não só com quem desenhou o processo no papel — é o que evita construir uma automação que quebra no primeiro caso fora do padrão.</p>
+    <blockquote>Um mapeamento feito só com gestores tende a automatizar o processo que deveria existir. Um mapeamento feito com quem executa automatiza o que de fato acontece — que é o que precisa funcionar.</blockquote>
+
+    <h2>3. O que acontece quando a automação encontra uma exceção?</h2>
+    <p>Todo processo tem casos fora da curva. Uma automação bem desenhada não tenta prever cada exceção possível — ela reconhece quando está diante de uma e encaminha para uma pessoa decidir, em vez de tentar decidir sozinha e errar silenciosamente.</p>
+    <p>Definir esse limite antes de construir evita dois extremos ruins: automações frágeis demais que travam a cada caso novo, ou automações "espertas" demais que tomam decisões erradas sem que ninguém perceba a tempo.</p>
+
+    <h2>Depois de responder as três perguntas</h2>
+    <p>Só faz sentido desenhar a automação depois desse mapeamento — não antes. É a diferença entre eliminar um trabalho manual de verdade e apenas mudar a ferramenta que executa o mesmo problema, agora mais rápido e mais difícil de enxergar.</p>
+    <p>Esse é o primeiro passo de qualquer projeto de <a href="/solucoes/#automacao">automação de processos</a> que fazemos: mapear antes de construir.</p>
+
+    <div class="article-cta">
+      <p>Tem um processo manual que parece pronto para virar automação?</p>
+      <a href="/contato/?tipo=automacao" class="btn btn-primary">Conversar sobre automação</a>
+    </div>
+
+    <div class="article-share">
+      <span class="tag">Automação</span>
+      <a href="/insights/" class="link-arrow">Voltar para Insights<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="/" class="brand" aria-label="Pleiades Systems — página inicial">
+        <span class="brand-mark" aria-hidden="true">
+          <svg class="brand-mark-svg" viewBox="0 0 500 500" width="28" height="28">
+            <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+              <path d="M2322 3785 c-169 -185 -367 -501 -407 -651 -63 -234 12 -450 196-557 24 -14 96 -40 159 -57 172 -48 231 -85 274 -172 22 -43 26 -66 26 -133 0-138 -44 -240 -148 -348 -222 -229 -525 -273 -710 -103 -133 122 -130 406 4 557 l39 43 -33 -25 c-86 -62 -152 -214 -152 -349 0 -181 93 -342 262 -456 155-104 310 -154 475 -154 346 0 618 212 688 534 13 57 16 104 12 175 -11 197-66 320 -207 461 -86 86 -107 102 -230 165 -232 120 -329 196 -376 291 -25 51-26 62 -21 137 8 108 44 229 122 408 83 191 112 289 86 289 -5 0 -32 -25 -59-55z"/>
+              <path d="M1912 2400 c74 -10 127 -38 162 -87 59 -84 42 -189 -42 -263 -52 -47-82 -49 -96 -8 -8 23 -5 31 22 56 51 48 40 111 -24 138 -31 13 -39 13 -67 -1-44 -21 -71 -69 -71 -126 0 -151 198 -214 317 -101 46 44 67 94 67 162 0 145-102 241 -255 238 l-70 -1 57 -7z"/>
+              <path d="M1765 2370 c-3 -6 1 -7 9 -4 18 7 21 14 7 14 -6 0 -13 -4 -16 -10z"/>
+            </g>
+          </svg>
+        </span>
+        <span class="brand-name">Pleiades <strong>Systems</strong></span>
+      </a>
+      <p>Desenvolvimento de sistemas, automação de processos e inteligência artificial para empresas que precisam de tecnologia que funciona.</p>
+    </div>
+
+    <nav class="footer-col" aria-label="Soluções">
+      <h3>Soluções</h3>
+      <ul>
+        <li><a href="/solucoes/#sistemas">Desenvolvimento de sistemas</a></li>
+        <li><a href="/solucoes/#automacao">Automação de processos</a></li>
+        <li><a href="/solucoes/#ia">Inteligência artificial</a></li>
+        <li><a href="/solucoes/#integracoes">Integrações e APIs</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Empresa">
+      <h3>Empresa</h3>
+      <ul>
+        <li><a href="/projetos/">Projetos</a></li>
+        <li><a href="/insights/">Insights</a></li>
+        <li><a href="/sobre/">Sobre</a></li>
+        <li><a href="/contato/">Contato</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Redes sociais">
+      <h3>Redes</h3>
+      <ul>
+        <li><a href="https://www.linkedin.com/company/pleiades-systems" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/pleiadessystems" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Pleiades Systems. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<a
+  href="https://wa.me/5511944007513?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Pleiades%20Systems%20e%20gostaria%20de%20saber%20mais."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Falar no WhatsApp"
+>
+  <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+    <path fill="currentColor" d="M16.02 3C9.4 3 4 8.38 4 15c0 2.32.66 4.49 1.8 6.34L3.99 29l7.85-1.77A11.94 11.94 0 0 0 16.02 27C22.64 27 28 21.62 28 15S22.64 3 16.02 3zm0 21.8c-1.98 0-3.83-.55-5.4-1.5l-.39-.23-4.66 1.05 1.08-4.53-.25-.4A9.75 9.75 0 0 1 5.2 15c0-5.98 4.85-10.83 10.82-10.83S26.84 9.02 26.84 15 22 24.8 16.02 24.8z"/>
+    <path fill="currentColor" d="M21.6 17.86c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.96 1.17-.18.2-.35.22-.65.08-.3-.15-1.28-.47-2.44-1.5-.9-.8-1.51-1.79-1.69-2.09-.18-.3-.02-.46.13-.61.14-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.68-1.63-.93-2.24-.24-.58-.49-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.03-1.05 2.5 0 1.47 1.08 2.9 1.23 3.1.15.2 2.12 3.24 5.15 4.54.72.31 1.28.5 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.07-.13-.28-.2-.58-.35z"/>
+  </svg>
+</a>
+
+<script src="/script.js"></script>
+</body>
+</html>

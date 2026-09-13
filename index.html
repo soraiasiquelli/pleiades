@@ -7,9 +7,8 @@
 <!-- ============================================================
      SEO — META TAGS PRINCIPAIS
 ============================================================ -->
-<title>Pleiades Systems | Desenvolvimento de Software, SaaS e Inteligência Artificial</title>
-<meta name="description" content="A Pleiades Systems desenvolve software sob medida, plataformas SaaS, automações e soluções de Inteligência Artificial para empresas que querem conectar ideias e impulsionar negócios.">
-<meta name="keywords" content="desenvolvimento de software, fábrica de software, software sob medida, desenvolvimento SaaS, automação empresarial, inteligência artificial, desenvolvimento de sistemas web, empresa de tecnologia">
+<title>Pleiades Systems | Desenvolvimento de sistemas, automação e IA</title>
+<meta name="description" content="A Pleiades Systems desenvolve sistemas sob medida, automatiza processos e aplica inteligência artificial a problemas reais de operação. Sem molde pronto, com sistema em produção.">
 <meta name="author" content="Pleiades Systems">
 <link rel="canonical" href="https://www.pleiadessystems.com/">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -17,28 +16,27 @@
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pleiades Systems">
-<meta property="og:title" content="Pleiades Systems | Tecnologia que conecta ideias e impulsiona negócios">
-<meta property="og:description" content="Software sob medida, plataformas SaaS, automações e Inteligência Artificial para empresas de todos os portes.">
+<meta property="og:title" content="Pleiades Systems | Desenvolvimento de sistemas, automação e IA">
+<meta property="og:description" content="Sistemas sob medida, automação de processos e inteligência artificial aplicada a problemas reais de operação.">
 <meta property="og:url" content="https://www.pleiadessystems.com/">
 <meta property="og:image" content="https://www.pleiadessystems.com/assets/og-image.jpg">
 <meta property="og:locale" content="pt_BR">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pleiades Systems | Tecnologia que conecta ideias e impulsiona negócios">
-<meta name="twitter:description" content="Software sob medida, plataformas SaaS, automações e Inteligência Artificial para empresas de todos os portes.">
+<meta name="twitter:title" content="Pleiades Systems | Desenvolvimento de sistemas, automação e IA">
+<meta name="twitter:description" content="Sistemas sob medida, automação de processos e inteligência artificial aplicada a problemas reais de operação.">
 <meta name="twitter:image" content="https://www.pleiadessystems.com/assets/og-image.jpg">
 
-<!-- Favicon (logo oficial) -->
-<link rel="icon" type="image/svg+xml" href="PleaidesFavicon.svg">
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/PleaidesFavicon.svg">
 <meta name="theme-color" content="#081B33">
 
-<!-- Preload de fontes críticas (Google Fonts) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
 
 <!-- ============================================================
      DADOS ESTRUTURADOS — SCHEMA.ORG
@@ -50,7 +48,7 @@
   "name": "Pleiades Systems",
   "url": "https://www.pleiadessystems.com/",
   "logo": "https://www.pleiadessystems.com/PleaidesFavicon.svg",
-  "description": "Empresa de tecnologia especializada em desenvolvimento de software sob medida, plataformas SaaS, automação de processos e Inteligência Artificial.",
+  "description": "Empresa de tecnologia especializada em desenvolvimento de sistemas sob medida, automação de processos, inteligência artificial e integrações.",
   "sameAs": [
     "https://www.linkedin.com/company/pleiades-systems",
     "https://www.instagram.com/pleiadessystems"
@@ -69,20 +67,40 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
+  "@type": "ItemList",
+  "name": "Produtos próprios Pleiades Systems",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.pleiadessystems.com/" }
+    {
+      "@type": "SoftwareApplication",
+      "position": 1,
+      "name": "SpeedOrder",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Sistema de gestão de pedidos para restaurantes, com fluxo rápido pensado para operação em alta demanda.",
+      "url": "https://www.pleiadessystems.com/projetos/#speedorder",
+      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 2,
+      "name": "UniEat",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Plataforma de gestão gastronômica para cantinas e restaurantes universitários.",
+      "url": "https://www.pleiadessystems.com/projetos/#unieat",
+      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "position": 3,
+      "name": "Plataforma IA",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Soluções de inteligência artificial aplicadas a processos reais de negócio.",
+      "url": "https://www.pleiadessystems.com/projetos/#plataforma-ia",
+      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
+    }
   ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Desenvolvimento de Software sob Medida",
-  "provider": { "@type": "Organization", "name": "Pleiades Systems" },
-  "areaServed": "BR",
-  "description": "Desenvolvimento de software personalizado, plataformas SaaS, automações, integrações e soluções de Inteligência Artificial para empresas de todos os portes."
 }
 </script>
 <script type="application/ld+json">
@@ -93,63 +111,27 @@
     {
       "@type": "Question",
       "name": "O que a Pleiades Systems desenvolve?",
-      "acceptedAnswer": { "@type": "Answer", "text": "A Pleiades Systems desenvolve softwares personalizados, plataformas SaaS, sistemas web, aplicativos, automações, integrações e soluções de Inteligência Artificial para empresas de todos os portes." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Sistemas sob medida, automações de processos, integrações entre sistemas e APIs, e soluções de inteligência artificial aplicadas a problemas reais de operação." }
     },
     {
       "@type": "Question",
       "name": "A Pleiades Systems atende empresas de qual porte?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Atendemos desde startups até empresas de médio e grande porte, com soluções escaláveis desenhadas sob medida para cada estágio de negócio." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Desde operações pequenas que ainda dependem de planilhas até empresas de médio porte com processos mais complexos. O que muda é o escopo, não o cuidado." }
     },
     {
       "@type": "Question",
-      "name": "Como funciona o processo de desenvolvimento?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Nosso processo segue sete etapas: descoberta, planejamento, design, desenvolvimento, testes, implantação e evolução contínua, garantindo qualidade e previsibilidade em cada entrega." }
+      "name": "Quanto tempo leva um projeto?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Depende do escopo. Uma automação pontual pode sair em poucas semanas; um sistema completo, alguns meses. Definimos prazo depois de entender o problema, não antes." }
     },
     {
       "@type": "Question",
       "name": "Quais tecnologias a Pleiades Systems utiliza?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Trabalhamos com uma stack moderna e madura — entre outras, JavaScript, TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB, Docker e AWS — a mesma que sustenta nossos próprios produtos SaaS em produção." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Uma stack moderna e madura — JavaScript, TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB, Docker e AWS entre outras — a mesma que sustenta nossos próprios produtos em produção." }
     },
     {
       "@type": "Question",
-      "name": "Como faço para solicitar um orçamento ou demonstração?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Preencha o formulário de contato no final da página com uma descrição do seu projeto. Nosso time retorna em até um dia útil com os próximos passos." }
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Produtos Pleiades Systems",
-  "itemListElement": [
-    {
-      "@type": "SoftwareApplication",
-      "position": 1,
-      "name": "SpeedOrder",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "Sistema inteligente de gestão de pedidos para restaurantes, com fluxo rápido e experiência pensada para operação em alta demanda.",
-      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
-    },
-    {
-      "@type": "SoftwareApplication",
-      "position": 2,
-      "name": "UniEat",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "Plataforma de gestão gastronômica voltada para cantinas e restaurantes universitários, conectando pedidos, cardápio e operação.",
-      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
-    },
-    {
-      "@type": "SoftwareApplication",
-      "position": 3,
-      "name": "Plataforma IA",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "Soluções de Inteligência Artificial aplicadas a processos reais de negócio, do reconhecimento de dados à automação de decisões.",
-      "provider": { "@type": "Organization", "name": "Pleiades Systems" }
+      "name": "Como faço para conversar sobre um projeto?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Preencha o formulário em /contato/ com uma descrição do que você precisa. Retornamos em até um dia útil com os próximos passos." }
     }
   ]
 }
@@ -157,7 +139,6 @@
 </head>
 <body>
 
-<!-- Link de acessibilidade: pular para o conteúdo -->
 <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
 
 <!-- ============================================================
@@ -165,9 +146,9 @@
 ============================================================ -->
 <header class="site-header" id="site-header">
   <div class="container header-inner">
-    <a href="#top" class="brand" aria-label="Pleiades Systems — página inicial">
+    <a href="/" class="brand" aria-label="Pleiades Systems — página inicial">
       <span class="brand-mark" aria-hidden="true">
-        <svg class="brand-mark-svg" viewBox="0 0 500 500" width="46" height="46">
+        <svg class="brand-mark-svg" viewBox="0 0 500 500" width="40" height="40">
           <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
             <path d="M2322 3785 c-169 -185 -367 -501 -407 -651 -63 -234 12 -450 196
 -557 24 -14 96 -40 159 -57 172 -48 231 -85 274 -172 22 -43 26 -66 26 -133 0
@@ -190,13 +171,11 @@
 
     <nav class="main-nav" aria-label="Navegação principal">
       <ul>
-        <li><a href="#sobre">Quem somos</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#produtos">Produtos</a></li>
-        <li><a href="#tecnologia">Tecnologia</a></li>
-        <li><a href="#processo">Processo</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contato" class="nav-cta">Solicitar demonstração</a></li>
+        <li><a href="/solucoes/">Soluções</a></li>
+        <li><a href="/projetos/">Projetos</a></li>
+        <li><a href="/insights/">Insights</a></li>
+        <li><a href="/sobre/">Sobre</a></li>
+        <li><a href="/contato/" class="nav-cta">Fale conosco</a></li>
       </ul>
     </nav>
 
@@ -207,13 +186,11 @@
 
   <div class="mobile-nav" id="mobileNav">
     <ul>
-      <li><a href="#sobre">Quem somos</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#produtos">Produtos</a></li>
-      <li><a href="#tecnologia">Tecnologia</a></li>
-      <li><a href="#processo">Processo</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contato" class="nav-cta">Solicitar demonstração</a></li>
+      <li><a href="/solucoes/">Soluções</a></li>
+      <li><a href="/projetos/">Projetos</a></li>
+      <li><a href="/insights/">Insights</a></li>
+      <li><a href="/sobre/">Sobre</a></li>
+      <li><a href="/contato/" class="nav-cta">Fale conosco</a></li>
     </ul>
   </div>
 </header>
@@ -223,249 +200,360 @@
 <!-- ============================================================
      HERO
 ============================================================ -->
-<section class="hero" id="top">
-  <canvas id="starfield" class="hero-canvas" aria-hidden="true"></canvas>
-  <div class="hero-glow" aria-hidden="true"></div>
-
-  <div class="container hero-inner">
-    <p class="eyebrow">Pleiades Systems</p>
-    <h1 class="hero-title">
-      Tecnologia que conecta<br>
-      ideias e <span class="text-electric">impulsiona negócios.</span>
-    </h1>
-    <p class="hero-subtitle">
-      Desenvolvemos softwares inteligentes, plataformas SaaS e soluções de
-      Inteligência Artificial sob medida — para empresas que querem crescer
-      com tecnologia sólida, escalável e feita para durar.
-    </p>
-    <div class="hero-actions">
-      <a href="#contato" class="btn btn-primary">Solicitar uma demonstração</a>
-      <a href="#servicos" class="btn btn-ghost">Conhecer nossas soluções</a>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1 class="hero-title">Construímos os sistemas que sua operação ainda faz na mão.</h1>
+      <p class="hero-subtitle">
+        A Pleiades Systems desenvolve sistemas sob medida, automatiza processos
+        e aplica inteligência artificial a problemas reais — para empresas que
+        precisam de tecnologia que funciona, não de mais uma ferramenta genérica.
+      </p>
+      <div class="hero-actions">
+        <a href="/contato/" class="btn btn-primary btn-lg">Falar sobre o meu projeto</a>
+        <a href="/solucoes/" class="link-arrow">
+          Ver soluções
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="hero-proof">
+        <span><strong>3</strong> produtos próprios em operação</span>
+        <span><strong>4</strong> frentes de trabalho: sistemas, automação, IA e integrações</span>
+      </div>
     </div>
 
-    <div class="hero-meta" role="list" aria-label="Diferenciais rápidos">
-      <span role="listitem">Software sob medida</span>
-      <span class="dot" aria-hidden="true">•</span>
-      <span role="listitem">Arquitetura escalável</span>
-      <span class="dot" aria-hidden="true">•</span>
-      <span role="listitem">Inteligência Artificial aplicada</span>
-    </div>
-  </div>
+    <div class="diagram" role="group" aria-label="As quatro frentes de trabalho convergindo na operação do cliente">
+      <svg class="diagram-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <line x1="50" y1="50" x2="16" y2="20"/>
+        <line x1="50" y1="50" x2="82" y2="17"/>
+        <line x1="50" y1="50" x2="84" y2="83"/>
+        <line x1="50" y1="50" x2="16" y2="82"/>
+      </svg>
+      <div class="diagram-flow" aria-hidden="true"></div>
 
-  <svg class="hero-scroll-cue" width="20" height="32" viewBox="0 0 20 32" aria-hidden="true">
-    <rect x="1" y="1" width="18" height="30" rx="9" fill="none" stroke="currentColor" stroke-opacity="0.4"/>
-    <circle cx="10" cy="9" r="3" fill="currentColor" class="scroll-dot"/>
-  </svg>
-</section>
-
-<!-- ============================================================
-     QUEM SOMOS
-============================================================ -->
-<section class="section" id="sobre" aria-labelledby="sobre-title">
-  <div class="container">
-    <p class="eyebrow eyebrow-dark">Quem somos</p>
-    <h2 id="sobre-title" class="section-title">
-      Ideias não nascem prontas.
-    </h2>
-    <p class="section-lede">
-      Toda ideia chega crua — um processo manual, uma dor mal descrita, uma
-      intuição sobre o que falta no negócio. É trabalho nosso dar forma a
-      isso: entender o que está por trás do pedido e transformar em sistema
-      que funciona, do mesmo jeito que sete estrelas soltas do aglomerado M45
-      só formam as Plêiades quando alguém entende como elas se conectam.
-    </p>
-
-    <div class="grid grid-3 reveal-group">
-      <article class="info-card reveal">
-        <span class="info-card-icon" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M5 9l9-6 9 6-9 6-9-6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 9v10l9 6 9-6V9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 15v10" stroke="currentColor" stroke-width="1.6"/></svg>
-        </span>
-        <h3>Sem molde pronto</h3>
-        <p>Cada sistema nasce da arquitetura pensada para o seu contexto — não de um template genérico adaptado para caber no seu caso.</p>
-      </article>
-      <article class="info-card reveal">
-        <span class="info-card-icon" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 28 28"><rect x="4" y="4" width="20" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 14h10M9 9h10M9 19h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-        </span>
-        <h3>Decisão técnica visível</h3>
-        <p>Arquitetura, trade-offs e prazos ficam documentados e acessíveis ao cliente — sem caixa-preta entre a proposta e a entrega.</p>
-      </article>
-      <article class="info-card reveal">
-        <span class="info-card-icon" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M4 22l6-13 5 7 4-9 5 15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </span>
-        <h3>Sucesso é produção</h3>
-        <p>Medimos entrega pelo sistema rodando com usuários reais — não por protótipo em slide ou ambiente de demonstração.</p>
-      </article>
+      <div class="diagram-node" style="left:16%;top:20%">
+        <span class="diagram-node-chip">Sistemas</span>
+        <p>Plataformas e sistemas web sob medida.</p>
+      </div>
+      <div class="diagram-node" style="left:82%;top:17%">
+        <span class="diagram-node-chip">Automação</span>
+        <p>Processos manuais viram rotina automática.</p>
+      </div>
+      <div class="diagram-node diagram-node--ia" style="left:84%;top:83%">
+        <span class="diagram-node-chip">Inteligência artificial</span>
+        <p>IA aplicada a decisões e tarefas reais.</p>
+      </div>
+      <div class="diagram-node" style="left:16%;top:82%">
+        <span class="diagram-node-chip">Integrações</span>
+        <p>Sistemas e APIs conversando entre si.</p>
+      </div>
+      <div class="diagram-node diagram-node--center" style="left:50%;top:50%">
+        <span class="diagram-node-chip">Sua operação</span>
+        <p>Tudo convergindo num só lugar.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ============================================================
-     SERVIÇOS
+     O QUE A PLEIADES RESOLVE
 ============================================================ -->
-<section class="section section-alt" id="servicos" aria-labelledby="servicos-title">
+<section class="section" aria-labelledby="resolve-title">
   <div class="container">
-    <p class="eyebrow eyebrow-dark">Serviços</p>
-    <h2 id="servicos-title" class="section-title">Soluções completas, do zero à evolução contínua.</h2>
-    <p class="section-lede">
-      Atuamos como fábrica de software e parceira de tecnologia, cobrindo
-      todo o ciclo de vida de um produto digital.
-    </p>
-
-    <div class="grid grid-4 reveal-group" id="servicosGrid">
-      <!-- Cards de serviço são renderizados via JS a partir de um array de dados -->
+    <div class="section-head">
+      <h2 id="resolve-title">Se algo disso soa familiar, provavelmente já é hora de conversar.</h2>
+      <p class="lede">Não vendemos tecnologia pela tecnologia. Resolvemos o que está travando a operação no dia a dia.</p>
     </div>
-  </div>
-</section>
 
-<!-- ============================================================
-     PRODUTOS
-============================================================ -->
-<section class="section" id="produtos" aria-labelledby="produtos-title">
-  <div class="container">
-    <p class="eyebrow eyebrow-dark">Produtos</p>
-    <h2 id="produtos-title" class="section-title">Produtos próprios, nascidos da nossa própria tecnologia.</h2>
-    <p class="section-lede">
-      Além de soluções sob medida, desenvolvemos produtos SaaS que colocamos
-      à prova todos os dias — e é essa experiência que aplicamos em cada projeto de cliente.
-    </p>
-
-    <div class="grid grid-3 reveal-group">
-      <article class="product-card reveal">
-        <!--
-          Print do produto: troque o <span class="product-shot-placeholder">…</span>
-          abaixo por <img src="assets/produtos/speedorder.png" alt="Painel de pedidos do SpeedOrder mostrando comandas em tempo real" loading="lazy">
-          Proporção recomendada da imagem: 16:10 (ex.: 1200×750px).
-        -->
-        <div class="product-shot" aria-hidden="true">
-          <span class="product-shot-bar"><i></i><i></i><i></i></span>
-          <span class="product-shot-placeholder"><strong>SpeedOrder</strong>assets/produtos/speedorder.png</span>
+    <div class="problem-list">
+      <div class="problem-row">
+        <span class="eyebrow-num">01</span>
+        <div>
+          <h3>Processos manuais que consomem tempo da equipe</h3>
+          <p>Tarefas repetitivas que alguém ainda faz à mão, todos os dias, porque nunca houve tempo de automatizar.</p>
         </div>
-        <div class="product-card-glyph" aria-hidden="true">SO</div>
-        <h3>SpeedOrder</h3>
-        <p>Sistema inteligente de gestão de pedidos para restaurantes, com fluxo rápido e experiência pensada para operação em alta demanda.</p>
-        <span class="tag">SaaS · Food service</span>
-      </article>
-      <article class="product-card reveal">
-        <!--
-          Print do produto: troque o <span class="product-shot-placeholder">…</span>
-          abaixo por <img src="assets/produtos/unieat.png" alt="Tela de cardápio digital do UniEat em um restaurante universitário" loading="lazy">
-        -->
-        <div class="product-shot" aria-hidden="true">
-          <span class="product-shot-bar"><i></i><i></i><i></i></span>
-          <span class="product-shot-placeholder"><strong>UniEat</strong>assets/produtos/unieat.png</span>
+      </div>
+      <div class="problem-row">
+        <span class="eyebrow-num">02</span>
+        <div>
+          <h3>Sistemas que não conversam entre si</h3>
+          <p>Cada ferramenta guarda uma parte da informação, e alguém fica no meio exportando e importando planilha.</p>
         </div>
-        <div class="product-card-glyph" aria-hidden="true">UE</div>
-        <h3>UniEat</h3>
-        <p>Plataforma de gestão gastronômica voltada para cantinas e restaurantes universitários, conectando pedidos, cardápio e operação.</p>
-        <span class="tag">SaaS · Gestão gastronômica</span>
-      </article>
-      <article class="product-card reveal">
-        <!--
-          Print do produto: troque o <span class="product-shot-placeholder">…</span>
-          abaixo por <img src="assets/produtos/plataforma-ia.png" alt="Painel da Plataforma IA exibindo automação de decisões" loading="lazy">
-        -->
-        <div class="product-shot" aria-hidden="true">
-          <span class="product-shot-bar"><i></i><i></i><i></i></span>
-          <span class="product-shot-placeholder"><strong>Plataforma IA</strong>assets/produtos/plataforma-ia.png</span>
+      </div>
+      <div class="problem-row">
+        <span class="eyebrow-num">03</span>
+        <div>
+          <h3>Operações inteiras dependendo de uma planilha</h3>
+          <p>E de uma pessoa específica que sabe mantê-la — o que é ótimo até essa pessoa tirar férias.</p>
         </div>
-        <div class="product-card-glyph" aria-hidden="true">AI</div>
-        <h3>Plataforma IA</h3>
-        <p>Soluções inteligentes que aplicam Inteligência Artificial a processos reais de negócio, do reconhecimento de dados à automação de decisões.</p>
-        <span class="tag">Inteligência Artificial</span>
-      </article>
-    </div>
-
-    <p class="product-soon reveal">
-      <span class="product-soon-dot" aria-hidden="true"></span>
-      Novos produtos em desenvolvimento pelo nosso time — em breve, mais novidades neste espaço.
-    </p>
-  </div>
-</section>
-
-<!-- ============================================================
-     DIFERENCIAIS
-============================================================ -->
-<section class="section section-dark" id="diferenciais" aria-labelledby="diferenciais-title">
-  <div class="container">
-    <p class="eyebrow">Diferenciais</p>
-    <h2 id="diferenciais-title" class="section-title section-title--light">Engenharia pensada para durar.</h2>
-
-    <div class="grid grid-3 reveal-group" id="diferenciaisGrid">
-      <!-- Preenchido via JS -->
+      </div>
+      <div class="problem-row">
+        <span class="eyebrow-num">04</span>
+        <div>
+          <h3>Necessidade de um sistema próprio</h3>
+          <p>Porque nenhuma ferramenta pronta do mercado encaixa de verdade no seu processo.</p>
+        </div>
+      </div>
+      <div class="problem-row">
+        <span class="eyebrow-num">05</span>
+        <div>
+          <h3>Dados espalhados em ferramentas diferentes</h3>
+          <p>Sem uma visão única do negócio — decisões tomadas com informação incompleta ou atrasada.</p>
+        </div>
+      </div>
+      <div class="problem-row">
+        <span class="eyebrow-num">06</span>
+        <div>
+          <h3>Tarefas que poderiam rodar sozinhas</h3>
+          <p>Mas continuam manuais porque ninguém parou para desenhar o fluxo automatizado.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ============================================================
-     TECNOLOGIA
+     SOLUÇÕES
 ============================================================ -->
-<section class="section" id="tecnologia" aria-labelledby="tecnologia-title">
+<section class="section section-alt" aria-labelledby="solucoes-title">
   <div class="container">
-    <p class="eyebrow eyebrow-dark">Nossa tecnologia</p>
-    <h2 id="tecnologia-title" class="section-title">Stack moderna, testada em produtos reais.</h2>
-    <p class="section-lede">
-      Escolhemos ferramentas maduras e escaláveis — as mesmas que usamos
-      para construir nossos próprios produtos SaaS.
-    </p>
+    <div class="section-head">
+      <h2 id="solucoes-title">O que construímos</h2>
+      <p class="lede">Quatro frentes de trabalho — cada uma resolvendo um tipo diferente de gargalo.</p>
+    </div>
 
-    <ul class="tech-badges" id="techBadges" aria-label="Tecnologias utilizadas">
-      <!-- Preenchido via JS -->
-    </ul>
+    <div class="solution-rows">
+      <article class="solution-row">
+        <div class="solution-row-head">
+          <span class="eyebrow-num">01</span>
+          <h3>Desenvolvimento de sistemas</h3>
+        </div>
+        <div class="solution-row-body">
+          <p>Sistemas web e plataformas sob medida, desenhados a partir do seu processo — não o contrário.</p>
+          <a href="/solucoes/#sistemas" class="link-arrow">Saiba mais<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="solution-row">
+        <div class="solution-row-head">
+          <span class="eyebrow-num">02</span>
+          <h3>Automação de processos</h3>
+        </div>
+        <div class="solution-row-body">
+          <p>Fluxos manuais viram rotina automática, sem depender de planilha ou de quem "sabe fazer".</p>
+          <a href="/solucoes/#automacao" class="link-arrow">Saiba mais<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="solution-row">
+        <div class="solution-row-head">
+          <span class="eyebrow-num">03</span>
+          <h3>Inteligência artificial</h3>
+        </div>
+        <div class="solution-row-body">
+          <p>IA aplicada a decisões e tarefas reais do seu negócio — não a demonstrações de vitrine.</p>
+          <a href="/solucoes/#ia" class="link-arrow">Saiba mais<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="solution-row">
+        <div class="solution-row-head">
+          <span class="eyebrow-num">04</span>
+          <h3>Integrações e APIs</h3>
+        </div>
+        <div class="solution-row-body">
+          <p>Seus sistemas passam a conversar entre si, com dados sincronizados de verdade.</p>
+          <a href="/solucoes/#integracoes" class="link-arrow">Saiba mais<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
 
 <!-- ============================================================
-     PROCESSO DE DESENVOLVIMENTO
+     PROJETOS EM DESTAQUE
 ============================================================ -->
-<section class="section section-alt" id="processo" aria-labelledby="processo-title">
+<section class="section" aria-labelledby="projetos-title">
   <div class="container">
-    <p class="eyebrow eyebrow-dark">Processo</p>
-    <h2 id="processo-title" class="section-title">Sete etapas, um único fio condutor.</h2>
-    <p class="section-lede">
-      Um processo claro do início ao fim — assim como as sete estrelas
-      principais das Plêiades formam um único aglomerado visível a olho nu.
-      Batizamos cada etapa com o nome de uma delas.
-    </p>
+    <div class="section-head">
+      <h2 id="projetos-title">Produtos que colocamos no ar</h2>
+      <p class="lede">Além de projetos sob medida, mantemos produtos próprios em produção — é neles que testamos o que depois aplicamos nos projetos de cliente.</p>
+    </div>
 
-    <ol class="timeline" id="timelineList">
-      <!-- Preenchido via JS -->
+    <div class="solution-rows">
+      <article class="solution-row">
+        <div class="solution-row-head">
+          <span class="tag">Produto próprio</span>
+          <h3>SpeedOrder</h3>
+        </div>
+        <div class="solution-row-body">
+          <p>Sistema de gestão de pedidos para restaurantes, com fluxo rápido pensado para operação em alta demanda.</p>
+          <a href="/projetos/#speedorder" class="link-arrow">Ver projeto<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="solution-row">
+        <div class="solution-row-head">
+          <span class="tag">Produto próprio</span>
+          <h3>UniEat</h3>
+        </div>
+        <div class="solution-row-body">
+          <p>Plataforma de gestão gastronômica para cantinas e restaurantes universitários, conectando pedido, cardápio e operação.</p>
+          <a href="/projetos/#unieat" class="link-arrow">Ver projeto<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="solution-row">
+        <div class="solution-row-head">
+          <span class="tag">Produto próprio</span>
+          <h3>Plataforma IA</h3>
+        </div>
+        <div class="solution-row-body">
+          <p>Soluções de inteligência artificial aplicadas a processos reais de negócio, do reconhecimento de dados à automação de decisões.</p>
+          <a href="/projetos/#plataforma-ia" class="link-arrow">Ver projeto<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="section-foot">
+      <a href="/projetos/" class="link-arrow">Ver todos os projetos<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     COMO TRABALHAMOS
+============================================================ -->
+<section class="section section-alt" aria-labelledby="processo-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="processo-title">Como trabalhamos</h2>
+      <p class="lede">Um processo claro do início ao fim, para que você sempre saiba em que ponto o projeto está.</p>
+    </div>
+
+    <ol class="process-list">
+      <li class="process-step">
+        <span class="process-step-num">01</span>
+        <div>
+          <h3>Descoberta</h3>
+          <p>Entendemos o problema, o negócio e os objetivos antes de propor qualquer solução.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-step-num">02</span>
+        <div>
+          <h3>Planejamento</h3>
+          <p>Definimos escopo, arquitetura e cronograma com previsibilidade.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-step-num">03</span>
+        <div>
+          <h3>Design</h3>
+          <p>Desenhamos a experiência da interface alinhada à identidade da sua marca.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-step-num">04</span>
+        <div>
+          <h3>Desenvolvimento</h3>
+          <p>Codificamos com boas práticas, versionamento e revisão contínua.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-step-num">05</span>
+        <div>
+          <h3>Testes</h3>
+          <p>Validamos funcionalidade, performance e segurança antes da entrega.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-step-num">06</span>
+        <div>
+          <h3>Implantação</h3>
+          <p>Colocamos o sistema no ar com monitoramento ativo.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-step-num">07</span>
+        <div>
+          <h3>Evolução contínua</h3>
+          <p>Acompanhamos métricas reais de uso e evoluímos o produto junto com o seu negócio.</p>
+        </div>
+      </li>
     </ol>
   </div>
 </section>
 
 <!-- ============================================================
      PERGUNTAS FREQUENTES
-     Conteúdo espelha o JSON-LD FAQPage no <head> — mantenha os dois
-     sincronizados ao editar uma pergunta.
+     Conteúdo espelha o JSON-LD FAQPage no <head> — manter sincronizado.
 ============================================================ -->
-<section class="section" id="faq" aria-labelledby="faq-title">
+<section class="section" aria-labelledby="faq-title">
   <div class="container">
-    <p class="eyebrow eyebrow-dark">Perguntas frequentes</p>
-    <h2 id="faq-title" class="section-title">Respostas diretas antes de você nos chamar.</h2>
+    <div class="section-head">
+      <h2 id="faq-title">Perguntas antes de conversar</h2>
+    </div>
 
-    <div class="faq-list reveal-group">
-      <details class="faq-item reveal" open>
+    <div class="faq-list">
+      <details class="faq-item" open>
         <summary>O que a Pleiades Systems desenvolve?<span class="faq-icon" aria-hidden="true"></span></summary>
-        <p>Softwares personalizados, plataformas SaaS, sistemas web, aplicativos, automações, integrações e soluções de Inteligência Artificial para empresas de todos os portes.</p>
+        <p>Sistemas sob medida, automações de processos, integrações entre sistemas e APIs, e soluções de inteligência artificial aplicadas a problemas reais de operação.</p>
       </details>
-      <details class="faq-item reveal">
+      <details class="faq-item">
         <summary>A Pleiades Systems atende empresas de qual porte?<span class="faq-icon" aria-hidden="true"></span></summary>
-        <p>Desde startups até empresas de médio e grande porte, com soluções escaláveis desenhadas sob medida para cada estágio de negócio.</p>
+        <p>Desde operações pequenas que ainda dependem de planilhas até empresas de médio porte com processos mais complexos. O que muda é o escopo, não o cuidado.</p>
       </details>
-      <details class="faq-item reveal">
-        <summary>Como funciona o processo de desenvolvimento?<span class="faq-icon" aria-hidden="true"></span></summary>
-        <p>Sete etapas — descoberta, planejamento, design, desenvolvimento, testes, implantação e evolução contínua — descritas na seção <a href="#processo">Processo</a> acima.</p>
+      <details class="faq-item">
+        <summary>Quanto tempo leva um projeto?<span class="faq-icon" aria-hidden="true"></span></summary>
+        <p>Depende do escopo. Uma automação pontual pode sair em poucas semanas; um sistema completo, alguns meses. Definimos prazo depois de entender o problema — descrito na seção <a href="#processo-title">Como trabalhamos</a> acima — não antes.</p>
       </details>
-      <details class="faq-item reveal">
+      <details class="faq-item">
         <summary>Quais tecnologias a Pleiades Systems utiliza?<span class="faq-icon" aria-hidden="true"></span></summary>
-        <p>Uma stack moderna e madura — JavaScript, TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB, Docker e AWS entre outras — a mesma que sustenta nossos próprios produtos SaaS em produção.</p>
+        <p>Uma stack moderna e madura — JavaScript, TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB, Docker e AWS entre outras — a mesma que sustenta nossos próprios produtos em produção.</p>
       </details>
-      <details class="faq-item reveal">
-        <summary>Como faço para solicitar um orçamento ou demonstração?<span class="faq-icon" aria-hidden="true"></span></summary>
-        <p>Preencha o <a href="#contato">formulário de contato</a> com uma descrição do seu projeto. Nosso time retorna em até um dia útil com os próximos passos.</p>
+      <details class="faq-item">
+        <summary>Como faço para conversar sobre um projeto?<span class="faq-icon" aria-hidden="true"></span></summary>
+        <p>Preencha o <a href="/contato/">formulário de contato</a> com uma descrição do que você precisa. Retornamos em até um dia útil com os próximos passos.</p>
       </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     INSIGHTS RECENTES
+============================================================ -->
+<section class="section section-alt" aria-labelledby="insights-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="insights-title">Insights recentes</h2>
+      <p class="lede">Registro do que aprendemos construindo sistemas, automações e produtos de IA.</p>
+    </div>
+
+    <div class="insight-list">
+      <a class="insight-row" href="/insights/sistema-sob-medida-ou-pronto/">
+        <div>
+          <div class="insight-meta"><span class="tag">Desenvolvimento</span><span class="dot">·</span><span>6 min de leitura</span></div>
+          <h3>Sistema pronto ou sistema sob medida: como decidir sem se arrepender depois</h3>
+          <p>Os três critérios que realmente deveriam pesar nessa escolha — e o motivo pelo qual "custo inicial" quase nunca é o mais importante.</p>
+        </div>
+        <span class="insight-row-arrow" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="insight-row" href="/insights/ia-na-operacao-onde-funciona/">
+        <div>
+          <div class="insight-meta"><span class="tag tag--violet">IA</span><span class="dot">·</span><span>7 min de leitura</span></div>
+          <h3>Onde a IA realmente economiza tempo na operação (e onde ela ainda atrapalha)</h3>
+          <p>Um mapa honesto de tarefas em que vale a pena aplicar IA hoje — e das que ainda exigem julgamento humano.</p>
+        </div>
+        <span class="insight-row-arrow" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="insight-row" href="/insights/antes-de-automatizar/">
+        <div>
+          <div class="insight-meta"><span class="tag">Automação</span><span class="dot">·</span><span>5 min de leitura</span></div>
+          <h3>Antes de automatizar, mapeie: três perguntas que evitam automatizar o processo errado</h3>
+          <p>Automatizar um processo ruim só faz ele dar errado mais rápido. O que checar antes de começar.</p>
+        </div>
+        <span class="insight-row-arrow" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+    </div>
+
+    <div class="section-foot">
+      <a href="/insights/" class="link-arrow">Ver todos os insights<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
   </div>
 </section>
@@ -473,36 +561,15 @@
 <!-- ============================================================
      CTA FINAL
 ============================================================ -->
-<section class="cta-final" id="contato" aria-labelledby="cta-title">
-  <canvas id="ctaStarfield" class="cta-canvas" aria-hidden="true"></canvas>
-  <div class="container cta-inner">
-    <p class="eyebrow">Vamos conversar</p>
-    <h2 id="cta-title" class="cta-title">Pronto para construir o futuro do seu negócio?</h2>
-    <p class="cta-subtitle">
-      Conte um pouco sobre o seu projeto. Nosso time retorna em até um dia útil
-      com os próximos passos para a sua demonstração.
-    </p>
-
-    <form class="cta-form" id="ctaForm" novalidate>
-      <div class="form-row">
-        <label for="name">Nome</label>
-        <input type="text" id="name" name="name" required autocomplete="name">
-      </div>
-      <div class="form-row">
-        <label for="email">E-mail corporativo</label>
-        <input type="email" id="email" name="email" required autocomplete="email">
-      </div>
-      <div class="form-row">
-        <label for="company">Empresa</label>
-        <input type="text" id="company" name="company" autocomplete="organization">
-      </div>
-      <div class="form-row form-row--full">
-        <label for="message">Conte sobre o seu projeto</label>
-        <textarea id="message" name="message" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary btn-lg">Vamos construir o futuro juntos</button>
-      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-    </form>
+<section class="cta-band" aria-labelledby="cta-title">
+  <div class="container cta-band-grid">
+    <div>
+      <h2 id="cta-title">Tem um problema específico? Vamos conversar sobre ele.</h2>
+      <p>Conte o que está travando a sua operação. Retornamos em até um dia útil com os próximos passos.</p>
+    </div>
+    <div class="cta-band-actions">
+      <a href="/contato/" class="btn btn-primary btn-lg">Falar com a Pleiades</a>
+    </div>
   </div>
 </section>
 
@@ -514,9 +581,9 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <a href="#top" class="brand" aria-label="Pleiades Systems — página inicial">
+      <a href="/" class="brand" aria-label="Pleiades Systems — página inicial">
         <span class="brand-mark" aria-hidden="true">
-          <svg class="brand-mark-svg" viewBox="0 0 500 500" width="30" height="30">
+          <svg class="brand-mark-svg" viewBox="0 0 500 500" width="28" height="28">
             <g transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
               <path d="M2322 3785 c-169 -185 -367 -501 -407 -651 -63 -234 12 -450 196
 -557 24 -14 96 -40 159 -57 172 -48 231 -85 274 -172 22 -43 26 -66 26 -133 0
@@ -536,53 +603,43 @@
         </span>
         <span class="brand-name">Pleiades <strong>Systems</strong></span>
       </a>
-      <p>Tecnologia que conecta ideias e impulsiona negócios.</p>
+      <p>Desenvolvimento de sistemas, automação de processos e inteligência artificial para empresas que precisam de tecnologia que funciona.</p>
     </div>
+
+    <nav class="footer-col" aria-label="Soluções">
+      <h3>Soluções</h3>
+      <ul>
+        <li><a href="/solucoes/#sistemas">Desenvolvimento de sistemas</a></li>
+        <li><a href="/solucoes/#automacao">Automação de processos</a></li>
+        <li><a href="/solucoes/#ia">Inteligência artificial</a></li>
+        <li><a href="/solucoes/#integracoes">Integrações e APIs</a></li>
+      </ul>
+    </nav>
 
     <nav class="footer-col" aria-label="Empresa">
       <h3>Empresa</h3>
       <ul>
-        <li><a href="#sobre">Quem somos</a></li>
-        <li><a href="#diferenciais">Diferenciais</a></li>
-        <li><a href="#processo">Processo</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="/projetos/">Projetos</a></li>
+        <li><a href="/insights/">Insights</a></li>
+        <li><a href="/sobre/">Sobre</a></li>
+        <li><a href="/contato/">Contato</a></li>
       </ul>
     </nav>
 
-    <nav class="footer-col" aria-label="Produtos">
-      <h3>Produtos</h3>
+    <nav class="footer-col" aria-label="Redes sociais">
+      <h3>Redes</h3>
       <ul>
-        <li><a href="#produtos">SpeedOrder</a></li>
-        <li><a href="#produtos">UniEat</a></li>
-        <li><a href="#produtos">Plataforma IA</a></li>
+        <li><a href="https://www.linkedin.com/company/pleiades-systems" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/pleiadessystems" target="_blank" rel="noopener noreferrer">Instagram</a></li>
       </ul>
     </nav>
-
-    <nav class="footer-col" aria-label="Serviços">
-      <h3>Serviços</h3>
-      <ul>
-        <li><a href="#servicos">Desenvolvimento de Software</a></li>
-        <li><a href="#servicos">Sistemas SaaS</a></li>
-        <li><a href="#servicos">Inteligência Artificial</a></li>
-        <li><a href="#servicos">Automação de Processos</a></li>
-      </ul>
-    </nav>
-
   </div>
 
   <div class="container footer-bottom">
     <p>© <span id="year"></span> Pleiades Systems. Todos os direitos reservados.</p>
-    <ul>
-      <li><a href="#">Política de Privacidade</a></li>
-      <li><a href="#">Termos de Uso</a></li>
-    </ul>
   </div>
 </footer>
 
-<!-- ============================================================
-     BOTÃO FLUTUANTE — WHATSAPP
-============================================================ -->
 <a
   href="https://wa.me/5511944007513?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Pleiades%20Systems%20e%20gostaria%20de%20saber%20mais."
   class="whatsapp-float"
@@ -590,12 +647,12 @@
   rel="noopener noreferrer"
   aria-label="Falar no WhatsApp"
 >
-  <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+  <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
     <path fill="currentColor" d="M16.02 3C9.4 3 4 8.38 4 15c0 2.32.66 4.49 1.8 6.34L3.99 29l7.85-1.77A11.94 11.94 0 0 0 16.02 27C22.64 27 28 21.62 28 15S22.64 3 16.02 3zm0 21.8c-1.98 0-3.83-.55-5.4-1.5l-.39-.23-4.66 1.05 1.08-4.53-.25-.4A9.75 9.75 0 0 1 5.2 15c0-5.98 4.85-10.83 10.82-10.83S26.84 9.02 26.84 15 22 24.8 16.02 24.8z"/>
     <path fill="currentColor" d="M21.6 17.86c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.96 1.17-.18.2-.35.22-.65.08-.3-.15-1.28-.47-2.44-1.5-.9-.8-1.51-1.79-1.69-2.09-.18-.3-.02-.46.13-.61.14-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.68-1.63-.93-2.24-.24-.58-.49-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.03-1.05 2.5 0 1.47 1.08 2.9 1.23 3.1.15.2 2.12 3.24 5.15 4.54.72.31 1.28.5 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.07-.13-.28-.2-.58-.35z"/>
   </svg>
 </a>
 
-<script src="script.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>
